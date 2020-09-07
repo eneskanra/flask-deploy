@@ -1,8 +1,5 @@
 from flask import Flask
-import os
-import api
-import models
-import logging
+
 
 logging.basicConfig(level=logging.DEBUG,
                    format='[%(asctime)s]: {} %(levelname)s %(message)s'.format(os.getpid()),
